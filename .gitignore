@@ -1,0 +1,55 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 788C-C60F
+
+ Directory of C:\Users\Casper\IdeaProjects\mmall
+
+2019/06/17  12:57    <DIR>          .
+2019/06/17  12:57    <DIR>          ..
+2019/06/17  12:57                 0 .gitignore
+2019/06/17  12:53    <DIR>          .idea
+2019/06/17  12:52                 0 md
+2019/06/17  11:25             1,265 mmall.iml
+2019/06/17  11:38    <DIR>          out
+2019/06/14  23:17             2,248 pom.xml
+2019/06/17  12:57               647 README.md
+2019/06/14  23:17    <DIR>          src
+2019/06/17  12:12    <DIR>          web
+               5 File(s)          4,160 bytes
+               6 Dir(s)   4,403,163,136 bytes free
+
+*.class
+
+#package file
+
+*.war
+*.ear
+
+#kdiff3 ignore
+*.orig
+
+#maven ignore
+target/
+
+#eclipse ignore
+.setting/
+.project
+.classpatch
+
+#idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+#temp file
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+#system ignore
+.DS_Store
+Thumbs.db
+
